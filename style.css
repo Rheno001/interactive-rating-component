@@ -21,17 +21,28 @@ body{
     min-height: 100vh;
 }
 .main-container img{
-    background-color: hsl(213, 19%, 18%);
+    background-color: hsl(213, 20%, 22%);
     padding: 0.5rem;
     border-radius: 50%;
+}
+.main-container h1{
+    color: #fff;
+    margin: 2rem 0 1rem;
 }
 .main-container, .thank-you{
     background-color: hsl(213, 19%, 18%);
     padding: 1.5rem;
     border-radius: 0.625rem;
 }
+.main-container p{
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 1rem;
+}
 button{
     font-family: inherit;
+}
+p{
+    line-height: 1.8;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
