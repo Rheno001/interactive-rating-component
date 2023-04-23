@@ -38,8 +38,38 @@ body{
     color: hsl(217, 12%, 63%);
     margin-bottom: 1rem;
 }
+.main-container ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.main-container ul li button{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    padding: 0.2rem;
+    background-color: hsl(213, 20%, 22%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.main-container ul li button:hover{
+    background: hsl(25, 97%, 53%);
+}
+.main-container ul li button:focus{
+    background: hsl(217, 12%, 63%);
+}
+
 button{
     font-family: inherit;
+}
+.btn-submit{
+    background: hsl(25, 97%, 53%);
+    width: 100%;
+    padding: 0.5rem 0 0.4rem;
 }
 p{
     line-height: 1.8;
