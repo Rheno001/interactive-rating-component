@@ -33,6 +33,7 @@ body{
     background-color: hsl(213, 19%, 18%);
     padding: 1.5rem;
     border-radius: 0.625rem;
+    max-width: 400px;
 }
 .thank-you{
     display: flex;
